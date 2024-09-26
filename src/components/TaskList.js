@@ -46,7 +46,7 @@ const TaskList = () => {
       
       {/* Table for task list */}
       <div className="table-responsive">
-        <table className="table table-striped">
+        <table className="table table-hover">
           <thead style={{ backgroundColor: "#f8f9fa" }}>
             <tr>
               <th scope="col">Task Name</th>
