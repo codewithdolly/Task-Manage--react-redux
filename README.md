@@ -1,6 +1,6 @@
 # Task Manager Application
 # Overview
-The Task Manager Application is a simple CRUD (Create, Read, Update, Delete) application built using React, Redux Toolkit, Bootstrap 5.3, Tailwind CSS, and React DnD for drag-and-drop functionality. The application allows users to manage tasks by adding, editing, updating the status, and deleting them. Additionally, it supports priority management through a select option and task status management similar to JIRA.
+The Task Manager Application is a simple CRUD (Create, Read, Update, Delete) application built using React, Redux Toolkit, Bootstrap 5.3, Tailwind CSS. The application allows users to manage tasks by adding, editing, updating the status, and deleting them. Additionally, it supports priority management through a select option and task status management similar to JIRA.
 
 # Features
 Task List: Displays tasks with their name, due date, description, status, and priority.
@@ -9,7 +9,6 @@ Add Task: Allows users to add new tasks using a modal form.
 Edit Task: Allows users to edit existing tasks and update their details.
 Delete Task: Users can delete tasks from the task list.
 Status Update: Allows updating of task status (To Do, In Progress, Done).
-Drag-and-Drop: Enables drag-and-drop functionality to change task status visually.
 Priority Management: Users can assign priorities (Low, Medium, High) to tasks.
 
 # Technologies Used
@@ -30,13 +29,8 @@ Click the Edit button beside any task in the list.
 Modify the task's details and click Update Task to save the changes.
 3. Deleting a Task
 Click the Delete button beside any task in the list to remove it from the application.
-4. Managing Task Status
-Tasks can be moved between To Do, In Progress, and Done using drag-and-drop.
-The task status will be updated based on where the task is dropped.
-5. Task Priority
-Each task has a Priority select option where you can choose between Low, Medium, and High priorities.
-Contributing
-Contributions are welcome! If you want to contribute to this project, follow these steps:
+4. Task Priority Each task has a Priority select option where you can choose between Low, Medium, and High priorities.
+Contributing Contributions are welcome! If you want to contribute to this project, follow these steps:
 
 Fork the repository.
 Create a new branch.
